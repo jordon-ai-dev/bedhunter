@@ -20,3 +20,9 @@ htmlcov/
 
 # bedhunter golden store (SQLite)
 data/*.db
+
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
