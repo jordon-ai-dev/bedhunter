@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bedhunter"
+version = "0.1.0"
+description = "Multi-source hospitality venue discovery engine"
+requires-python = "==3.12.*"
+dependencies = [
+    "requests",
+    "python-dotenv",
+    "rapidfuzz",
+    "beautifulsoup4",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
